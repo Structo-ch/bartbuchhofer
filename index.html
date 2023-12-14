@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bartbuchhofer wird / devient Strudio Wow</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #000;
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        text-align: center;
+        cursor: pointer !important;
+      }
+      img {
+        max-width: 100%;
+        max-height: 250px;
+      }
+      h1 {
+        font-size: 3rem;
+        margin: 0;
+        font-weight: 100;
+        text-decoration: none;
+      }
+      .container {
+        display: flex;
+        align-items: center;
+        flex-flow: row wrap;
+        align-content: space-around;
+        height: 100vh;
+        max-width: 1000px;
+        margin: auto;
+        justify-content: center;
+        gap: 2em;
+      }
+      * {
+        cursor: pointer !important;
+      }
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      .col {
+        flex: 0 1 30%;
+        display: flex;
+        justify-content: center;
+      }
+
+      @media (max-width: 975px) {
+        .col {
+          flex: 0 1 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://studiowow.ch/">
+      <article class="container">
+        <div class="col">
+          <img
+            src="https://www.bartbuchhofer.ch/images/logo.png"
+            alt="Bartbuchhofer Logo"
+          />
+        </div>
+        <div class="col">
+          <h1>wird / devient</h1>
+        </div>
+        <div class="col">
+          <img
+            fetchpriority="high"
+            width="566"
+            height="566"
+            src="https://studiowow.ch/wp-content/uploads/2023/04/logo-studio-wow.svg"
+            class="elementor-animation-wobble-horizontal attachment-full size-full wp-image-2393"
+            alt=""
+          />
+        </div>
+      </article>
+    </a>
+  </body>
+</html>
